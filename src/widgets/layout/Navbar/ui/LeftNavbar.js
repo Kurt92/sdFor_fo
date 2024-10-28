@@ -10,10 +10,11 @@ export const LeftNavbar = () => {
 
     let getMenuList = () => {
         axios
-            .get("http://localhost:8088/api/menu/tree")
+            .get("http://localhost:8088/api/ll/menu/tree")
             .then((result) => {
                 let res = result.data.data
                 setMenu(res);
+                console.log(res);
             })
             .catch(() => {
                 console.log("failed");

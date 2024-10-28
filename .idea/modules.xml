@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../sdfor_fo.iml" filepath="$PROJECT_DIR$/../sdfor_fo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sdFor_fo.iml" filepath="$PROJECT_DIR$/.idea/sdFor_fo.iml" />
     </modules>
   </component>
 </project>
