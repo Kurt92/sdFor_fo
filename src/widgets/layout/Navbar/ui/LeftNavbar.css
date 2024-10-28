@@ -1,0 +1,67 @@
+.left-navbar {
+    background-color: #1e1e3d;
+    width: 260px;
+    position: relative;
+    min-width: 260px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 72px);
+    /*height: 500px;*/
+    overflow: hidden;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    padding: 40px 40px 24px 40px;
+    border-radius: 5px;
+}
+
+.img-area {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    top: 0;
+    left: -33px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.info-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+}
+
+.versiton_master {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    color: #34c759;
+    font-weight: 700;
+    position: relative;
+}
+
+.menu_gnb {
+    padding-top: 24px;
+    position: relative;
+    margin-bottom: 85px;
+    overflow-y: auto;
+}
+
+.menu_gnb:before {
+    content: "";
+    display: inline-block;
+    border-top: 1px solid #fff;
+    opacity: 0.2;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    right: 40px;
+}

@@ -1,0 +1,308 @@
+{
+  "success": true,
+  "code": "200",
+  "message": "SUCCESS",
+  "data": {
+    "info": {
+      "customer": {
+        "cstmrId": 1626,
+        "cstmrNm": "호",
+        "email": "mh.jun@lulu-lab.com",
+        "brthdy": "06. 12. 2004",
+        "gender": "male",
+        "agreAt": true,
+        "optTouAt": false
+      },
+      "skinData": {
+        "mesureHistId": 2412,
+        "skinTy": null,
+        "bhfNm": "NewBranchTest3",
+        "skinWr": "모공 / 다크서클 / 홍조",
+        "visitDt": "06.12.2024 15:10:51"
+      }
+    },
+    "analysisResults": [
+      {
+        "skinWr": "트러블",
+        "score": 9.29,
+        "imageUrl": "https://d3kcsd1zjvqjfr.cloudfront.net/dev%2Fcrm-hnb%2Fcustomers%2FTEBQAH00000-1718084679525-1359%2F20240612151041%2F20240612151041_acne_result.jpg?Expires=1718247231&Signature=XrqEQWSU4UaDBmtuwQifbSOUdg7Tc0TYyuqo6I4vrKpqn6HcvWygJCbZnYZsLtM2VxMcRJzyCD~g2xnaTKnIHSASz9Uwo073OW11elDFWXugBf3oTunEQVGciHQlbh6RMp8y~86AX78Xi-cf9aXrT5nsIC5rQvfzceA70UqZRd-Mj5f4ybV4Dx7FnT~J9w0HN3VPgloVojSGn7nfEg90fX6svgoJyhce7MzcgSPjjcTqqqvIliMgTlCGDIWJfVCaZwkIxgr6cEcz6zr7kH0wQE7WV21WD9qFs52wgQaGSoqhcVoueOch9CVQyKY-FbaTY2l0bGu50ILgIK~lKu6PBQ__&Key-Pair-Id=K2SY9036WST06K",
+        "sortNum": 1
+      },
+      {
+        "skinWr": "색소침착",
+        "score": 8.64,
+        "imageUrl": "https://d3kcsd1zjvqjfr.cloudfront.net/dev%2Fcrm-hnb%2Fcustomers%2FTEBQAH00000-1718084679525-1359%2F20240612151041%2F20240612151041_melanin_result.jpg?Expires=1718247231&Signature=fUmmpm6CJ8PsoFyUegHStEBHmHkBT9SWRzedbXfp8tuEGAqU7OAYBcPj7AwlFUILCfjaZlmw4qfNEI5PtAqKrZWoS88DPZLvr4qI-f9imqotwzVE9CV1HRpuBawbM~GGpEwg5ztuwRZy9rk38sZ9ea1fCb83WMADlzwfmq7zB-MK9Deb81cJmOqr6BL8iOf5UxXaq13VuafYSVM8KNXuaFoO7Dg~mT1E187R9JCzA~ZDpmQg8qS2dyg6OVVZ2w8w-MKLkyJDlQc5sw93Mr0hIaZkcwW5GYnB4HoF6cqtONo-2GtJmNydBvpY7IfIsCT7j4xl2M43byl3AaXSEmGoVw__&Key-Pair-Id=K2SY9036WST06K",
+        "sortNum": 2
+      },
+      {
+        "skinWr": "모공",
+        "score": 2.64,
+        "imageUrl": "https://d3kcsd1zjvqjfr.cloudfront.net/dev%2Fcrm-hnb%2Fcustomers%2FTEBQAH00000-1718084679525-1359%2F20240612151041%2F20240612151041_pore_result.jpg?Expires=1718247231&Signature=shDnbDno1krbaCLKBmI~avmCEQv0RMTwspusfboOZPTwTU2z0qBGvbSQq8H3Vh3kOe6mcXFW7DLfgmoUNlldj~u7vQ5-alHvNvxa1qFsOw2xvxY5cJb-VdaKunDgk~tDUbEUoEn8XmdHBIuJKusIEJDbbqOCSEn8wYR6kNsBAqPU6tqdZ2Vv7qJah4RYTKWa7EX~9~COcxQpXTzGakulN6q1~cA6Yn8dsBhp-7rliZmH4Pvhy0eQyXj3wfs-xnIy-A2mnXKVMbmbEb7HD-PDIQ7u0-H4-ffk~jG6jsSvLZYLvDxM1k4cIF~kS-tKaTUrDTFENmHMsmKGGQxGvWSANw__&Key-Pair-Id=K2SY9036WST06K",
+        "sortNum": 3
+      },
+      {
+        "skinWr": "주름",
+        "score": 8.83,
+        "imageUrl": "https://d3kcsd1zjvqjfr.cloudfront.net/dev%2Fcrm-hnb%2Fcustomers%2FTEBQAH00000-1718084679525-1359%2F20240612151041%2F20240612151041_wrinkle_result.jpg?Expires=1718247231&Signature=aizSM9lNK61mOYvtaTu1BSo7BLWXkaLEGakrhHvWls6-kOZAf4utNhH7ipdF5VKeP-aIOnypjz~cs2MpmuzfaDNgn3OPcIBH~-x~f~2jWWRGYdZJzje3LE-TN-kAAiN2eyIBb-9M0GsYXwMDxPbmrdo7OyU-4hQ8Mt9TJ1iqI~mRn4MYn49V44vIOofoj8KAvbiZWUFPKOUMgLwwRd84Trf8xs2hAKlzNDKhiSr74tvZTJcXl~RtpDZikmBGA7vwyuNlhowJHcL81amIo77k4UOa1nbNEBAeFVgJdU2MUkDmTd7d6h37cCbEJnnAdB4H1m07aJIkgZaaAkumu6bwEg__&Key-Pair-Id=K2SY9036WST06K",
+        "sortNum": 4
+      },
+      {
+        "skinWr": "다크서클",
+        "score": 7.71,
+        "imageUrl": "https://d3kcsd1zjvqjfr.cloudfront.net/dev%2Fcrm-hnb%2Fcustomers%2FTEBQAH00000-1718084679525-1359%2F20240612151041%2F20240612151041_darkcircle_result.jpg?Expires=1718247231&Signature=Ib8L5X~l5REm-yFqqtRWcKO8AbaAZ~UeJ-tP0WjIKVq8ZBsKcpt1uXVUUIZCyqcJymZWAC6nXHfaFqkCpb6z4sehFx6TFgSKi41OeOPfiRp55MYAEoLP~cSA7keHJSnxlHr7N0cAg0OxDWOgdDgOgJwm-Zoagsqo49I51pxM15IHaa6bxKjbObmnRWS5g09RwK1AKppQvhGRFMrE8WmALNlO7jr6iOQDLp-zIwwjEjbBoMwoZQdPkOrk5bfyQHvAVXk5ceBaPTdcKrOsF0DNNVev1QLT1UHre8Hcho2OV7AC1t7cXnDxtUeT9rrWQjh8YyCKvAfoMm9aqm2wgAKdjw__&Key-Pair-Id=K2SY9036WST06K",
+        "sortNum": 5
+      },
+      {
+        "skinWr": "홍조",
+        "score": 6.66,
+        "imageUrl": "https://d3kcsd1zjvqjfr.cloudfront.net/dev%2Fcrm-hnb%2Fcustomers%2FTEBQAH00000-1718084679525-1359%2F20240612151041%2F20240612151041_hemo_result.jpg?Expires=1718247231&Signature=iMgeeKGe1x1gIlCK-5IAhSm9XA5MHjAndM~XG9HuqHkkU7PxxcB1AWvCIu2FeVK4ZreHi1Ve22KYLRCiC2ex7ltFgvTeRVn6o74EmUvT1bpvqSG6lfmhHmfc1RaDePR~MVLOHk4LZ~RKCG8hG7G~9C0LrZi9DuYBz8K42sPOehFg4~GtF~u~gPubpteaP-AxfSrwSQQ0Pj1ocJANCXDJ1bWEkbaV-nPsZaEKOdAP6LsUdUreE8f-dJTN1--3hAD8cgFmQYKJUUVBND4~f0Gp~iAC0Okp7ZSlnLv4Alnyk2VBA4O1BylGT6FP0pxWlXKkAbOpq6y8o7EbUf-51VODqQ__&Key-Pair-Id=K2SY9036WST06K",
+        "sortNum": 6
+      },
+      {
+        "skinWr": "피지",
+        "score": 8.00,
+        "imageUrl": "https://d3kcsd1zjvqjfr.cloudfront.net/dev%2Fcrm-hnb%2Fcustomers%2FTEBQAH00000-1718084679525-1359%2F20240612151041%2F20240612151041_sebum_result.jpg?Expires=1718247231&Signature=nVUH87RJ47hThETEJfvbB5IA-nOn5PCoQ9TtLgxVndtkawdfquAUtRwI-qD~DTWZ~pm7TU3W-YQlORlWfNcnxeCb71AOnu7GMaCw29UYP5m2WCeg6yuWqIcneQFGLRdCZNvBTaM6gBmKSmEahMUzFmCSn3OAF0isjxzlRUNtbmJX3H7QG-UhSkCSsIR6kiYjengsjrKQ6jt6Lgnrefy1fVTeRPPEE1exS6AEfdGs6xyrirly4dsqxAZDNcumENsel3LVTojXPNA50pWi-~C~EFcuvE6tdPndAuJWwCBAjqqxTO9BdzuyZ8UfefTHbVCV~Pcd2ypflF8zbUlquzJV1g__&Key-Pair-Id=K2SY9036WST06K",
+        "sortNum": 7
+      },
+      {
+        "skinWr": "탄력",
+        "score": null,
+        "imageUrl": null,
+        "sortNum": 8
+      },
+      {
+        "skinWr": "광채",
+        "score": null,
+        "imageUrl": null,
+        "sortNum": 9
+      },
+      {
+        "skinWr": "피부결",
+        "score": null,
+        "imageUrl": null,
+        "sortNum": 10
+      }
+    ],
+    "recommendation": {
+      "products": [
+        {
+          "recomendCsmtcsId": 334783,
+          "ctgryNm": "Cleansers",
+          "brandNm": "aaa",
+          "prductCpcty": null,
+          "prductNm": "OSACleansers",
+          "netprc": 11.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAH00000/97.jpg"
+        },
+        {
+          "recomendCsmtcsId": 334784,
+          "ctgryNm": "Toners",
+          "brandNm": "aaa",
+          "prductCpcty": null,
+          "prductNm": "OSATonsers",
+          "netprc": 11.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAH00000/98.jpg"
+        },
+        {
+          "recomendCsmtcsId": 334785,
+          "ctgryNm": "Creams",
+          "brandNm": "aaa",
+          "prductCpcty": null,
+          "prductNm": "OSACreams",
+          "netprc": 11.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAH00000/99.jpg"
+        },
+        {
+          "recomendCsmtcsId": 334786,
+          "ctgryNm": "Essences",
+          "brandNm": "aaa",
+          "prductCpcty": null,
+          "prductNm": "OSAEssences",
+          "netprc": 11.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAH00000/100.jpg"
+        },
+        {
+          "recomendCsmtcsId": 334787,
+          "ctgryNm": "Masks",
+          "brandNm": "aaa",
+          "prductCpcty": null,
+          "prductNm": "OSAMasks",
+          "netprc": 11.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAH00000/101.jpg"
+        },
+        {
+          "recomendCsmtcsId": 334788,
+          "ctgryNm": "Facial Oils",
+          "brandNm": "aaa",
+          "prductCpcty": null,
+          "prductNm": "OSAFacialOils",
+          "netprc": 11.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAH00000/102.jpg"
+        },
+        {
+          "recomendCsmtcsId": 334789,
+          "ctgryNm": "Mists",
+          "brandNm": "aaa",
+          "prductCpcty": null,
+          "prductNm": "OSAMists",
+          "netprc": 11.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAH00000/103.jpg"
+        },
+        {
+          "recomendCsmtcsId": 334790,
+          "ctgryNm": "Suncare",
+          "brandNm": "aaa",
+          "prductCpcty": null,
+          "prductNm": "OSASuncare",
+          "netprc": 11.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAH00000/104.jpg"
+        },
+        {
+          "recomendCsmtcsId": 334791,
+          "ctgryNm": "Eye Care",
+          "brandNm": "aaa",
+          "prductCpcty": null,
+          "prductNm": "OSAEyeCare",
+          "netprc": 11.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAH00000/106.jpg"
+        },
+        {
+          "recomendCsmtcsId": 334792,
+          "ctgryNm": "Scrubs",
+          "brandNm": "aaa",
+          "prductCpcty": null,
+          "prductNm": "OSAScrubs",
+          "netprc": 11.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAH00000/107.jpg"
+        },
+        {
+          "recomendCsmtcsId": 334793,
+          "ctgryNm": "Spot Gels",
+          "brandNm": "aaa",
+          "prductCpcty": null,
+          "prductNm": "OSASpotGels",
+          "netprc": 11.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAH00000/108.jpg"
+        },
+        {
+          "recomendCsmtcsId": 334794,
+          "ctgryNm": "Essences",
+          "brandNm": "1t",
+          "prductCpcty": null,
+          "prductNm": "DS es",
+          "netprc": 100.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAH00000/4cb55822-2a2c-4ffa-a301-cbf0a211421b.png"
+        },
+        {
+          "recomendCsmtcsId": 334795,
+          "ctgryNm": "Suncare",
+          "brandNm": "ff",
+          "prductCpcty": null,
+          "prductNm": "webptest",
+          "netprc": 500.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAF00005/eacf5a65-c144-4984-93b0-e0caefcb6df4.webp"
+        },
+        {
+          "recomendCsmtcsId": 334796,
+          "ctgryNm": "Essences",
+          "brandNm": "testlulu",
+          "prductCpcty": null,
+          "prductNm": "PNG변환",
+          "netprc": 55.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAF00005/4491934f-1d76-4b6b-9433-476523a6c0cd.png"
+        },
+        {
+          "recomendCsmtcsId": 334797,
+          "ctgryNm": "Spot Gels",
+          "brandNm": "21t",
+          "prductCpcty": null,
+          "prductNm": "리팩토링테스트",
+          "netprc": 100.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAH00000/9c5ce408-4396-4d4e-af99-a7db4076a066.jpg"
+        },
+        {
+          "recomendCsmtcsId": 334798,
+          "ctgryNm": "Cleansers",
+          "brandNm": "lululab2",
+          "prductCpcty": null,
+          "prductNm": "test1234",
+          "netprc": 1234124.00,
+          "crrncyCode": "USD",
+          "prductImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/cosmetics/TEBQAF00005/6767e06e-b53a-4a1b-a981-767ae08c740d.png"
+        }
+      ],
+      "treatments": [
+        {
+          "recomendCsmtcsId": 15179,
+          "trtNm": "OS-A RF 고주파",
+          "trtNcnm": "OS-A RF 고주파",
+          "ctgryNm": "RF 고주파",
+          "netprc": 1.00,
+          "crrncyCode": "USD",
+          "trtImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/treatments/TEBQAH00000/49.jpg"
+        },
+        {
+          "recomendCsmtcsId": 15180,
+          "trtNm": "OS-A Skin Booster 주사",
+          "trtNcnm": "OS-A Skin Booster 주사",
+          "ctgryNm": "Skin Booster 주사",
+          "netprc": 1.00,
+          "crrncyCode": "USD",
+          "trtImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/treatments/TEBQAH00000/51.jpg"
+        },
+        {
+          "recomendCsmtcsId": 15181,
+          "trtNm": "OS-A Massage 수기관리",
+          "trtNcnm": "OS-A Massage 수기관리",
+          "ctgryNm": "Massage 수기관리",
+          "netprc": 1.00,
+          "crrncyCode": "USD",
+          "trtImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/treatments/TEBQAH00000/52.jpg"
+        },
+        {
+          "recomendCsmtcsId": 15182,
+          "trtNm": "OS-A Others 기타",
+          "trtNcnm": "OS-A Others 기타",
+          "ctgryNm": "Others 기타",
+          "netprc": 1.00,
+          "crrncyCode": "USD",
+          "trtImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/treatments/TEBQAH00000/53.jpg"
+        },
+        {
+          "recomendCsmtcsId": 15183,
+          "trtNm": "OS-A 레이저",
+          "trtNcnm": "OS-A 레이저",
+          "ctgryNm": "레이저",
+          "netprc": 1.00,
+          "crrncyCode": "USD",
+          "trtImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/treatments/TEBQAH00000/54.jpg"
+        },
+        {
+          "recomendCsmtcsId": 15184,
+          "trtNm": "OR Skin Booster 주사",
+          "trtNcnm": "OR Skin Booster 주사",
+          "ctgryNm": "Skin Booster 주사",
+          "netprc": 1.00,
+          "crrncyCode": "USD",
+          "trtImageUrl": "https://di1xrgxsyog1h.cloudfront.net/dev/cms/treatments/TEBQAH00000/21.jpg"
+        }
+      ]
+    },
+    "memos": []
+  }
+}

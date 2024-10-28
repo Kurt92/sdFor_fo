@@ -1,0 +1,39 @@
+.contents-area {
+    background-color: #f5f6f8;
+    width: 100%;
+    flex: 1;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 72px);
+    overflow: auto ;
+}
+
+.content {
+    border-radius: 4px;
+    padding: 24px;
+    margin-top: 16px;
+    background-color: #ffffff;
+    height: 2000px;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-area {
+    margin-top: 10px;
+}
+
+.select-opt-area {
+    margin-top: 16px;
+    min-height: 21px;
+    display: flex;
+    justify-content: space-between;
+}

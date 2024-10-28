@@ -1,0 +1,44 @@
+.btn_middle_light {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.btn_middle_light span {
+    padding-left: 7px;
+
+}
+
+.btn_small_blur1:not(:disabled){
+    color: #09097a !important;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+span {
+
+}
+
+
+/*.btn-ui-tab-stat {*/
+/*    width: 100px;*/
+/*    display: block;*/
+/*    position: relative;*/
+/*    padding: 0 8px;*/
+/*    line-height: 28px;*/
+/*    background-color: #fff;*/
+/*    color: #1b1b57;*/
+/*    border-radius: 4px;*/
+/*}*/
+
+/*.btn-ui-tab-stat:after {*/
+/*    content: "";*/
+/*    display: inline-block;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    background-image: url(/public/images/ic_check_white.png) 0 0 no-repeat;*/
+/*    background-size: contain;*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    right: 8px;*/
+/*    transform: translateY(-50%);*/
+/*}*/

@@ -1,0 +1,98 @@
+.log_main_wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.log_main_wrapper .log_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 423px;
+    padding: 16px;
+    max-height: 380px;
+    overflow-y: auto;
+    margin: 60px 0;
+}
+
+.log_main_wrapper .log_form img {
+    width: 260px;
+}
+
+.log_main_wrapper .log_title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #09097a;
+}
+
+.log_main_wrapper .log_form .log_content {
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.log_main_wrapper .log_form .log_input {
+    margin: 25px 27px;
+}
+
+.log_main_wrapper .log_form .log_button {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.log_main_wrapper .log_form .log_button button {
+    width: 72%;
+}
+
+.log_main_wrapper .log_form .log_footer {
+    margin-top: 36px;
+    text-align: center;
+}
+
+.log_main_wrapper .log_form .log_footer .sec {
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ccc;
+}
+
+.log_main_wrapper .log_form .log_footer .sec + .sec {
+    padding-left: 32px;
+}
+
+.log_main_wrapper .log_form .log_footer .sec + .sec:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    border-left: 1px solid #939393;
+    position: absolute;
+    top: 2px;
+    left: 16px;
+}
+
+.log_main_wrapper .log_form .log_footer .sec a {
+    font-size: 12px;
+    line-height: 18px;
+    color: #939393;
+}
+
+.log_main_wrapper .log_form .log_footer span.sec a {
+    padding-left: 8px;
+}
+
+.log_main_wrapper .log_copyright {
+    position: absolute;
+    bottom: 36px;
+}
+
+.log_main_wrapper .log_copyright p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #ccc;
+}

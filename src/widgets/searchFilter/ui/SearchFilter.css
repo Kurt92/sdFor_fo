@@ -1,0 +1,108 @@
+.in_content {
+    display: flex;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px
+}
+
+.content_place_filter .selected_list {
+    display: flex;
+}
+
+.content_place_filter .selected_list > .skinTyResult {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 10px;
+    border: 1px solid black;
+    width: 80px;
+    text-align: center;
+}
+
+.content_place_filter .selected_list > .productResult, .treatmentResult {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 10px;
+    border: 1px solid black;
+    width: auto;
+    text-align: center;
+}
+
+.search_area {
+    display: flex;
+}
+.search-filter-area {
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 24px;
+    margin-top: 16px;
+}
+
+.customer-search-opt {
+    margin-left: 20px;
+}
+
+.selected_list {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.selected_list div.add_item {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 10px;
+    border: 1px solid black;
+    width: auto;
+    text-align: center;
+}
+
+.selected_list div.add_item button {
+    margin-left: 5px;
+}
+
+[class*="selected_list"] {
+    min-height: 60px;
+    padding: 16px;
+    background-color: #f7f7f7;
+    margin-top: 8px;
+}
+
+[class*="selected_list"] ul {
+    margin-top: -8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class*="selected_list"] ul li {
+    padding: 4px 8px;
+    margin-top: 8px;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+[class*="selected_list"] ul li .name {
+    color: #09097a;
+}
+
+[class*="selected_list"] ul li .btn_delete {
+}
+
+.selected_list_2 {
+    margin-top: 18px;
+}
+
+.selected_list_3 ul li .name {
+    color: #5e5e5e;
+}

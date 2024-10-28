@@ -1,0 +1,60 @@
+{
+  "contents": [
+    {
+      "cstmrId": 1421,
+      "mesureHistId": null,
+      "nm": "ㅈㄴ",
+      "brthdy": "20030322",
+      "email": "ws@g.g",
+      "gender": "male",
+      "lastVisitDate": "03. 22. 2024",
+      "zoneMesureDeTime": "20240322042354",
+      "age": null,
+      "skinTy": "OS-A",
+      "ageGroup": "20s",
+      "branch": "qavalid002"
+    },
+    {
+      "cstmrId": 1423,
+      "mesureHistId": null,
+      "nm": "ㄴㅇ",
+      "brthdy": "19960322",
+      "email": "ws@g.f",
+      "gender": "male",
+      "lastVisitDate": "03. 22. 2024",
+      "zoneMesureDeTime": "20240322040252",
+      "age": null,
+      "skinTy": "DR",
+      "ageGroup": "20s",
+      "branch": "qavalid002"
+    },
+    {
+      "cstmrId": 1313,
+      "mesureHistId": null,
+      "nm": "테슬",
+      "brthdy": "20010322",
+      "email": "mh.jun@lulu-lab.com",
+      "gender": "male",
+      "lastVisitDate": "03. 22. 2024",
+      "zoneMesureDeTime": "20240322021534",
+      "age": null,
+      "skinTy": "OS-A",
+      "ageGroup": "20s",
+      "branch": "qavalid002"
+    },
+    {
+      "cstmrId": 1312,
+      "mesureHistId": null,
+      "nm": "bj",
+      "brthdy": "19850321",
+      "email": "bj.an@lulu-lab.com",
+      "gender": "male",
+      "lastVisitDate": "03. 21. 2024",
+      "zoneMesureDeTime": "20240321031016",
+      "age": null,
+      "skinTy": "OR-A",
+      "ageGroup": "40s",
+      "branch": "qavalid002"
+    }
+  ]
+}
