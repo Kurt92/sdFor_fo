@@ -1,18 +1,18 @@
-import "./Contents.css"
+import "./Board.css"
 // import "../../../../shared/common.css"
-import SearchBar from "../../../searchBar/ui/SearchBar";
-import DataTable from "../../../../shared/components/Table/ui/DataTable";
-import DownloadExcelBtn from "../../../../shared/components/Button/DownloadExcelBtn";
-import AddToGroupBtn from "../../../../shared/components/Button/AddToGroupBtn";
-import SendMsgBtn from "../../../../shared/components/Button/SendMsgBtn";
-import DataTableInfiniteScroll from "../../../../shared/components/Table/ui/DataTableInfiniteScroll";
-import DeleteBtn from "../../../../shared/components/Button/DeleteBtn";
-import SearchFilter from "../../../searchFilter/ui/SearchFilter";
+import SearchBar from "../../../../searchBar/ui/SearchBar";
+import DataTable from "../../../../../shared/components/Table/ui/DataTable";
+import DownloadExcelBtn from "../../../../../shared/components/Button/DownloadExcelBtn";
+import AddToGroupBtn from "../../../../../shared/components/Button/AddToGroupBtn";
+import SendMsgBtn from "../../../../../shared/components/Button/SendMsgBtn";
+import DataTableInfiniteScroll from "../../../../../shared/components/Table/ui/DataTableInfiniteScroll";
+import DeleteBtn from "../../../../../shared/components/Button/DeleteBtn";
+import SearchFilter from "../../../../searchFilter/ui/SearchFilter";
 import {useSelector} from "react-redux";
 import {AnimatePresence, motion} from "framer-motion";
 import {isVisible} from "@testing-library/user-event/dist/utils";
 
-const ContentsTable = () => {
+const Board = () => {
 
 
     const searchFilterBtnAt = useSelector(state => state.searchFilterShown);
@@ -33,7 +33,7 @@ const ContentsTable = () => {
                         </motion.div>
                     )}
                 </AnimatePresence>
-                {/*{searchFilterBtnAt.at && <SearchFilter/>}*/}
+                {searchFilterBtnAt.at && <SearchFilter/>}
                 <div className={"content"} >
                     <div className={"btn-area"}>
                         <div className={"text-area"}>
@@ -59,4 +59,4 @@ const ContentsTable = () => {
     )
 }
 
-export default ContentsTable;
+export default Board;

@@ -1,16 +1,16 @@
-import "./contentsCustomerDetail.css"
-import GroupListBtn from "../../../../shared/components/Button/GroupListBtn";
-import PreviousReportBtn from "../../../../shared/components/Button/PreviousReportBtn";
-import BeforeAfterBtn from "../../../../shared/components/Button/BeforeAfterBtn";
+import "./boardDetail.css"
+import GroupListBtn from "../../../../../shared/components/Button/GroupListBtn";
+import PreviousReportBtn from "../../../../../shared/components/Button/PreviousReportBtn";
+import BeforeAfterBtn from "../../../../../shared/components/Button/BeforeAfterBtn";
 import axios from "axios";
 import {useEffect, useState} from "react";
-import SpinLoadingBar from "../../../../shared/components/LoadingBar/ui/SpinLoadingBar";
+import SpinLoadingBar from "../../../../../shared/components/LoadingBar/ui/SpinLoadingBar";
 import {useSelector} from "react-redux";
-import AnalysisImgCard from "../../../../shared/components/Card/ui/AnalysisImgCard";
-import RecommendTab from "../../../../shared/components/Tab/ui/RecommendTab";
-import RecommendCard from "../../../../shared/components/Card/ui/RecommendCard";
+import AnalysisImgCard from "../../../../../shared/components/Card/ui/AnalysisImgCard";
+import RecommendTab from "../../../../../shared/components/Tab/ui/RecommendTab";
+import RecommendCard from "../../../../../shared/components/Card/ui/RecommendCard";
 
-const ContentsCustomerDetail = () => {
+const BoardDetail = () => {
 
     const dataId = useSelector(state => state.dataId)
     const [detailData, setDetailData] = useState();
@@ -118,4 +118,4 @@ const ContentsCustomerDetail = () => {
 
 }
 
-export default ContentsCustomerDetail;
+export default BoardDetail;

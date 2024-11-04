@@ -4,8 +4,8 @@ import {Route, Routes} from "react-router-dom";
 import {Header} from "../widgets/layout/Header";
 import '../shared/common.css'
 import LeftNavbar from "../widgets/layout/Navbar/ui/LeftNavbar";
-import ContentsTable from "../widgets/layout/Contents/ui/ContentsTable";
-import SearchInput from "../shared/components/Input/ui/SearchInput";
+import Board from "../widgets/layout/Contents/board/ui/Board";
+import SearchInput from "../shared/components/Input/Search/ui/SearchInput";
 import AddToGroupBtn from "../shared/components/Button/AddToGroupBtn";
 import MyAccountBtn from "../shared/components/Button/MyAccountBtn";
 import SearchFilterBtn from "../shared/components/Button/SearchFilterBtn";
@@ -14,10 +14,11 @@ import SendMsgBtn from "../shared/components/Button/SendMsgBtn";
 import TestCheckbox from "../shared/components/Button/TestCheckbox";
 import {Login} from "../pages/Login";
 import SearchFilter from "../widgets/searchFilter/ui/SearchFilter";
-import ContentsCustomerDetail from "../widgets/layout/Contents/ui/ContentsCustomerDetail";
+import BoardDetail from "../widgets/layout/Contents/board/ui/BoardDetail";
 import SpinLoadingBar from "../shared/components/LoadingBar/ui/SpinLoadingBar";
 import {useSelector} from "react-redux";
 import Layout from "../widgets/layout/Layout/Layout";
+import Input from "../widgets/layout/Contents/input/ui/Input";
 
 function App() {
 
@@ -34,15 +35,18 @@ function App() {
                 </Route>
 
                 <Route path="/board" element={<Layout />}>
-                    <Route index element={<ContentsTable />} />
-                    <Route path="detail" element={<ContentsCustomerDetail />} />
+                    <Route index element={<Board />} />
+                    <Route path="detail" element={<BoardDetail />} />
+                </Route>
+
+                <Route path="/input" element={<Layout />}>
+                    <Route index element={<Input />} />
+
                 </Route>
 
 
 
-
-
-                {/*for test*/}
+                    {/*for test*/}
 
 
                 <Route path="/make-bar" element={

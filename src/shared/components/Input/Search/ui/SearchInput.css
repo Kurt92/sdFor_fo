@@ -17,7 +17,7 @@ input {
 .btn_sch {
     width: 20px;
     height: 20px;
-    background: url(../../../../../public/images/ic_search.png) 0 0 no-repeat;
+    background: url(../../../../../../public/images/ic_search.png) 0 0 no-repeat;
     filter: invert(78%) sepia(5%) saturate(18%) hue-rotate(338deg) brightness(108%) contrast(86%);
     position: absolute;
     top: 30%;

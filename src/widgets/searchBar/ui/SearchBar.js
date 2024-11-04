@@ -1,5 +1,5 @@
 import "./SearchBar.css"
-import SearchInput from "../../../shared/components/Input/ui/SearchInput";
+import SearchInput from "../../../shared/components/Input/Search/ui/SearchInput";
 import SearchFilterBtn from "../../../shared/components/Button/SearchFilterBtn";
 export const SearchBar = () => {
 
@@ -11,7 +11,7 @@ export const SearchBar = () => {
             <div className={"search-bar"}>
                 <label className={"text_2"}>Search</label>
                 <SearchInput/>
-                <SearchFilterBtn/>
+                {/*<SearchFilterBtn/>*/}
             </div>
         </>
     )
