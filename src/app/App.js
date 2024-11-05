@@ -1,6 +1,6 @@
 import React from "react";
 import '../shared/App.css';
-import {Route, Routes} from "react-router-dom";
+import {Navigate, Route, Routes} from "react-router-dom";
 import {Header} from "../widgets/layout/Header";
 import '../shared/common.css'
 import LeftNavbar from "../widgets/layout/Navbar/ui/LeftNavbar";
@@ -27,6 +27,8 @@ function App() {
     return(
         <div className="App">
             <Routes>
+                {/* 메인페이지에 대한 리다이렉션 */}
+                <Route path="/" element={<Navigate to="/main" replace />} />
 
                 <Route path="/login" element={<Login/>}/>
 

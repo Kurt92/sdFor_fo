@@ -2,9 +2,17 @@ import './Login.css'
 // import logoImage from '../../../../public/images/img_logo.png'
 import axios from "axios";
 import {Link} from "react-router-dom";
+import {useState} from "react";
+import {Button, IconButton, TextField} from "@mui/material";
+import {RiKakaoTalkFill} from "react-icons/ri";
+import {SiNaver} from "react-icons/si";
+import {FaGoogle} from "react-icons/fa";
 
 
 export const Login = () => {
+
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
 
     let getInfo = () => {
         axios
@@ -18,37 +26,67 @@ export const Login = () => {
 
     }
 
-    return (
-        <>
-            <div className="log_main_wrapper">
-                <div className="log_form">
-                    <div className="logo-wrap d-flex justify-content-center">
-                        <img src="images/logo.png" alt="logo-image" />
-                    </div>
-                    <div className="log_content">
-                        Welcome to the lululab's back-office solution. <br/>
-                        Please click the button below to log in and access the solution.<br/>
-                        (This solution is only accessible to authenticated users.)
-                    </div>
-                </div>
-                <div className="log_button">
-                    <Link to={'http://localhost:8088/sso/lululab'}>
-                    <button className="btn_big_navy" id="ssoBtn">Go to Login</button>
-                    </Link>
-                </div>
-                <div className="log_footer mt30">
-                    <span className="sec"> Contact <a href="#">lululab@lulu-lab.com</a></span>
-                    <strong className="sec">
-                        {/*<a href="#" id="btnServicePolicy">Terms of Service</a>*/}
-                    </strong>
-                </div>
-                <div className="log_copyright">
-                    <p>© 2023 lululab Inc. All rights reserved.</p>
-                </div>
-            </div>
-        </>
 
-    )
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        // 로그인 처리 로직 (API 호출 등)
+        console.log('Email:', email);
+        console.log('Password:', password);
+    };
+
+    return (
+        <div className="login-container">
+            <form onSubmit={handleSubmit} className="login-form">
+                <h2 className="login-title">로그인</h2>
+
+                <div className="input-group">
+                    <TextField
+                        label="이메일"
+                        variant="outlined"
+                        fullWidth
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required
+                        margin="normal"
+                    />
+                </div>
+                <div className="input-group">
+                    <TextField
+                        label="비밀번호"
+                        type="password"
+                        variant="outlined"
+                        fullWidth
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        required
+                        margin="normal"
+                    />
+                </div>
+                {/*<div className="social-buttons">*/}
+                {/*    <IconButton className="social-icon" aria-label="Google 로그인">*/}
+                {/*        <FaGoogle color="#DB4437" size="24"/>*/}
+                {/*    </IconButton>*/}
+                {/*    <IconButton className="social-icon" aria-label="Kakao 로그인">*/}
+                {/*        <RiKakaoTalkFill color="#FEE500" size="24"/>*/}
+                {/*    </IconButton>*/}
+                {/*    <IconButton className="social-icon" aria-label="Naver 로그인">*/}
+                {/*        <SiNaver color="#03C75A" size="24"/>*/}
+                {/*    </IconButton>*/}
+                {/*</div>*/}
+                <Button
+                    type="submit"
+                    variant="contained"
+                    sx={{backgroundColor: '#1e1e3d', '&:hover': {backgroundColor: '#1e1e3d'}}}
+                    fullWidth
+                    className="login-button"
+                >
+                    로그인
+                </Button>
+            </form>
+        </div>
+    );
+
 }
 
 export default Login;
