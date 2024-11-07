@@ -11,17 +11,19 @@ import {FaGoogle} from "react-icons/fa";
 
 export const Login = () => {
 
-    const [email, setEmail] = useState('');
+    const [id, setId] = useState('');
     const [password, setPassword] = useState('');
 
-    let getInfo = () => {
+    let login = () => {
         axios
-            .get()
-            .then(() => {
-
+            .post("http://localhost:8011/auth/login",
+                {id, password},
+                { withCredentials: true })
+            .then((res) => {
+                console.log(res)
             })
             .catch(() => {
-
+                console.log("failed");
             })
 
     }
@@ -31,7 +33,7 @@ export const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         // 로그인 처리 로직 (API 호출 등)
-        console.log('Email:', email);
+        console.log('Id:', id);
         console.log('Password:', password);
     };
 
@@ -45,8 +47,8 @@ export const Login = () => {
                         label="이메일"
                         variant="outlined"
                         fullWidth
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
+                        value={id}
+                        onChange={(e) => setId(e.target.value)}
                         required
                         margin="normal"
                     />
@@ -80,6 +82,7 @@ export const Login = () => {
                     sx={{backgroundColor: '#1e1e3d', '&:hover': {backgroundColor: '#1e1e3d'}}}
                     fullWidth
                     className="login-button"
+                    onClick={login}
                 >
                     로그인
                 </Button>
