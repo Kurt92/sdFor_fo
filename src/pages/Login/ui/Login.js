@@ -2,7 +2,7 @@ import './Login.css'
 // import logoImage from '../../../../public/images/img_logo.png'
 import axios from "axios";
 import {Link} from "react-router-dom";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {Button, IconButton, TextField} from "@mui/material";
 import {RiKakaoTalkFill} from "react-icons/ri";
 import {SiNaver} from "react-icons/si";
@@ -28,6 +28,19 @@ export const Login = () => {
 
     }
 
+    let checkRefTonken = () => {
+        axios
+            .post("http://localhost:8011/auth/auto-login",
+                {},
+                { withCredentials: true })
+            .then((res) => {
+                console.log("result : " + res)
+            })
+            .catch(() => {
+                console.log("failed");
+            })
+    }
+
 
 
     const handleSubmit = (e) => {
@@ -36,6 +49,10 @@ export const Login = () => {
         console.log('Id:', id);
         console.log('Password:', password);
     };
+
+    useEffect(() => {
+        checkRefTonken();
+    }, []);
 
     return (
         <div className="login-container">
